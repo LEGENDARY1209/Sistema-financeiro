@@ -11,6 +11,8 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center; /* Alinha verticalmente no centro */
+    background-color: black; /* Define o fundo preto */
 }
 
 main {
@@ -18,79 +20,11 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-/* Estilos gerais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    outline: none;
+    align-items: flex-start; /* Alinha à esquerda */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve */
 }
 
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
-
-main {
-    max-width: 550px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* ... (outros estilos) ... */
-
-/* Estilos para a tabela de itens */
-.divTable {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-table {
-    width: 98%;
-    padding: 20px 0;
-    border-radius: 5px;
-}
-
-th {
-    text-align: start;
-    border-bottom: inset;
-    padding-bottom: 5px;
-}
-
-i {
-    font-size: 25px;
-}
-
-.bxs-chevron-up-circle {
-    color: #00C9A7;
-}
-
-.bxs-chevron-down-circle {
-    color: #D83121;
-}
-
-.columnAction {
-    width: 40px;
-    text-align: center;
-}
-
-.columnAction > button {
-    background: transparent;
-    border: none;
-}
-
-.columnAmount {
-    width: 30%;
-}
-
-.columnType {
-    width: 80px;
-    text-align: center;
-}
+/* Resto dos estilos permanece igual */
